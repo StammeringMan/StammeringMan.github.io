@@ -1,0 +1,391 @@
+html body{
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .partone{
+	width: 100%;
+	height: 100%;
+
+	background-image: url("images/hero3.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+    background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container .partone .navigation {
+	width: 100%;
+	height: 15%;
+
+	display: flex;
+	justify-content: center;
+}
+
+.container .partone .navigation .topsection{
+	width: 100%;
+	height: 100%;
+
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.container .partone .navigation .topsection .leftsection{
+	width: 50%;
+	height: 100%;
+	padding-left: 100px;
+	
+	color: white;
+	font-family: Gotham Rounded;
+	font-size: 25px;
+
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.container .partone .navigation .topsection .leftsection a{
+	text-decoration: none;	
+	color: white;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*Logo area ends*/
+
+/*-------------------------------------------------------------------------------------*/
+
+.container .partone .navigation .topsection .rightsection{
+	width: 50%;
+	height: 100%;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.container .partone .navigation .topsection .rightsection .menu{
+	width: 100%;
+	height:100%;
+	padding-right: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container .partone .navigation .topsection .rightsection .menu .list{
+	width: 100%;
+	height: 100%;
+	padding-left: 100px;
+	padding-right: 50px;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: row;
+}
+
+.container .partone .navigation .topsection .rightsection .menu .list .btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+
+}
+
+.container .partone .navigation .topsection .rightsection .menu .list .btn button{
+
+	background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 16px;
+	cursor: pointer;
+}
+
+.container .partone .navigation .topsection .rightsection .menu .list .btn button:hover{
+	color: #42dc94;
+	transition: all 0.5s ease;
+}
+
+.container .partone .navigation .topsection .rightsection .menu .list .btn button:focus{
+	outline: none;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*Hero content begins*/
+
+/*-------------------------------------------------------------------------------------*/
+
+
+.container .partone .herocontent{
+	width: 100%;
+	height: 85%;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container .partone .herocontent .herotext{
+	width: 70%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.container .partone .herocontent .herotext{
+	font-family: Gotham Rounded;
+	font-size: 30px;
+	color: white;
+}
+
+
+.container .partone .herocontent .herogif{
+	width: 30%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+/*part 2 starts*/
+
+/*------------------------------------------------------------------------------*/
+
+.conttwo{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conttwo .parttwo{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conttwo .parttwo .work{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.conttwo .parttwo .work .firstslide{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	background-color: #77b1a9;
+
+}
+
+.conttwo .parttwo .work .firstslide .workText{
+	width: 100%;
+	height: 20%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: Gotham Rounded;
+	font-size: 18px;
+	color: white;
+}
+
+.conttwo .parttwo .work .firstslide .workContent{
+	width: 100%;
+	height: 80%;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;	
+}
+
+.conttwo .parttwo .work .firstslide .workContent .rqm{
+	width: 20%;
+	height: 80%;
+	border-radius: 2%;
+
+	
+}
+
+.conttwo .parttwo .work .firstslide .workContent .rqm img{
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+
+}
+
+.conttwo .parttwo .work .firstslide .workContent .bhukkhad{
+	width: 20%;
+	height: 80%;
+	border-radius: 2%;
+
+}
+
+
+.conttwo .parttwo .work .firstslide .workContent .bhukkhad img{
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+
+	
+}
+
+.conttwo .parttwo .work .firstslide .workContent .wiki{
+	width: 20%;
+	height: 80%;
+	border-radius: 2%;
+
+}
+
+.conttwo .parttwo .work .firstslide .workContent .wiki img{
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------*/
+
+/*part 3rd ends and part 4rth start*/
+
+/*--------------------------------------------------------------------------------*/
+
+.contfour{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.contfour .partfour{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #0A122A;	
+}
+
+
+.contfour .partfour .socialMedia{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	padding-left: 20%;
+	padding-right: 20%;
+
+}
+
+.contfour .partfour .socialMedia .facebook, .twitter, .github{
+	width: 20%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contfour .partfour .socialMedia .facebook .fa-facebook, .twitter .fa-twitter, .github .fa-github{
+	color: #42dc94;
+}
+
+.contfour .partfour .socialMedia .facebook .fa-facebook:hover{
+	color: #2a180a;
+	transition: all 0.5s ease;
+}
+
+.contfour .partfour .socialMedia .twitter .fa-twitter:hover{
+	color: #2a180a;
+	transition: all 0.5s ease;
+}
+
+.contfour .partfour .socialMedia .github .fa-github:hover{
+	color: #2a180a;
+	transition: all 0.5s ease;
+}
+}
