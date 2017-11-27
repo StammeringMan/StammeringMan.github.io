@@ -72,6 +72,8 @@ html body{
 	color: white;
 }
 
+
+
 /*-------------------------------------------------------------------------------------------*/
 
 /*Logo area ends*/
@@ -88,6 +90,11 @@ html body{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+}
+
+
+.container .partone .navigation .topsection .rightsection .listmobile, .menuContent{
+	display: none;
 }
 
 .container .partone .navigation .topsection .rightsection .menu{
@@ -229,13 +236,13 @@ html body{
 	align-items: center;
 	flex-direction: column;
 
-	background-color: #77b1a9;
+	background-color: white;
 
 }
 
 .conttwo .parttwo .work .firstslide .workText{
 	width: 100%;
-	height: 20%;
+	height: 10%;
 
 	display: flex;
 	justify-content: center;
@@ -243,77 +250,301 @@ html body{
 
 	font-family: Gotham Rounded;
 	font-size: 18px;
-	color: white;
+	color: black;
 }
 
-.conttwo .parttwo .work .firstslide .workContent{
+.conttwo .parttwo .work .firstslide .firstslidebottomSec{
+	width: 100%;
+	height: 90%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;	 
+}
+
+.conttwo .parttwo .work .firstslide .firstslidebottomSec .workContent{
+	width: 50%;
+	height: 80%;
+	padding-left: 100px;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;	
+}
+
+.conttwo .parttwo .work .firstslide .firstslidebottomSec .workContent .rqm{
+	width: 80%;
+	height: 80%;
+	border-radius: 2%;
+
+	
+}
+
+.conttwo .parttwo .work .firstslide .firstslidebottomSec .workContent .rqm img{
+	width: 100%;
+	height: 100%;
+	border-radius: 2%;
+}
+
+.conttwo .parttwo .work .firstslide .firstslidebottomSec .workContentText{
+	width: 50%;
+	height: 80%;
+	padding-right: 100px;
+
+	font-family: Roboto, "sans-serif";
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.conttwo .parttwo .work .firstslide .moreProject{
+	width: 100%;
+	height: 10%;
+	padding-right: 150px;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.conttwo .parttwo .work .firstslide .moreProject button{
+
+	background-color: transparent;
+    border: none;
+    color: #64FFDA;;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 2em;
+	cursor: pointer;
+	border-radius: 5%;
+	outline: none;
+
+	transition: 0.5s all ease;
+}
+
+.conttwo .parttwo .work .firstslide .moreProject button:hover {
+	color: white;
+	background-color: #64FFDA;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+/*part 2nd ends and part 3rd start*/
+
+/*--------------------------------------------------------------------------------*/
+
+
+.contthree{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+.contthree .partthird{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contthree .partthird .timeline{
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.contthree .partthird .timeline .timelinehead{
+	width: 100%;
+	height: 10%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 2em;
+	font-family: Gotham Rounded, "sans-serif";
+}
+
+.contthree .partthird .timeline .timeLinetrack{
 	width: 100%;
 	height: 80%;
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent{
+	width: 80%;
+	height: 10%;
+	background-color: #FBC02D;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: row;	
 }
 
-.conttwo .parttwo .work .firstslide .workContent .rqm{
-	width: 20%;
-	height: 80%;
-	border-radius: 2%;
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn1, .btn2, .btn3, .btn4{
+	width: 20px;
+	height: 20px;
 
-	
+	background-color: #F5F5F5;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	position: relative;
 }
 
-.conttwo .parttwo .work .firstslide .workContent .rqm img{
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn1:hover{
+	cursor: pointer;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn1:hover .btn1text{
+	width: 150px;
+	height: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: white;
+	color: #42dc94;
+	cursor: pointer;
+	padding: 5px;
+	position: absolute;
+	border-radius: 2px;
+
+	bottom: 115%;
+	top: auto;
+	left: -75px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn2:hover .btn2text{
+	width: 200px;
+	height: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: white;
+	color: #42dc94;
+	cursor: pointer;
+	padding: 5px;
+	position: absolute;
+	border-radius: 2px;
+
+	bottom: 115%;
+	top: auto;
+	left: -95px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn3:hover .btn3text{
+	width: 250px;
+	height: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: white;
+	color: #42dc94;
+	cursor: pointer;
+	padding: 5px;
+	position: absolute;
+	border-radius: 2px;
+
+	bottom: 115%;
+	top: auto;
+	left: -115px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn4:hover .btn4text{
+	width: 250px;
+	height: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: white;
+	color: #42dc94;
+	cursor: pointer;
+	padding: 5px;
+	position: absolute;
+	border-radius: 2px;
+
+	bottom: 115%;
+	top: auto;
+	left: -115px;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn2:hover{
+	cursor: pointer;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn3:hover{
+	cursor: pointer;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn4:hover{
+	cursor: pointer;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn1 .btn1text, .btn2 .btn2text, .btn3 .btn3text, .btn4 .btn4text{
+	display: none;
+	transition: all 0.5s ease;
+}
+
+.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn1 .btn1text span, .btn2 .btn2text span, .btn3 .btn3text span, .btn4 .btn4text span{
+	font-family: Roboto, "sans-serif";
+} 
+
+.contthree .partthird .timeline .timeLineContext{
 	width: 100%;
-	height: 100%;
-	border-radius: 2%;
-
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8em;
+	font-family: Roboto, "sans-serif";
 }
-
-.conttwo .parttwo .work .firstslide .workContent .bhukkhad{
-	width: 20%;
-	height: 80%;
-	border-radius: 2%;
-
-}
-
-
-.conttwo .parttwo .work .firstslide .workContent .bhukkhad img{
-	width: 100%;
-	height: 100%;
-	border-radius: 2%;
-
-	
-}
-
-.conttwo .parttwo .work .firstslide .workContent .wiki{
-	width: 20%;
-	height: 80%;
-	border-radius: 2%;
-
-}
-
-.conttwo .parttwo .work .firstslide .workContent .wiki img{
-	width: 100%;
-	height: 100%;
-	border-radius: 2%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -328,7 +559,7 @@ html body{
 
 .contfour{
 	width: 100%;
-	height: 100%;
+	height: 20%;
 
 	display: flex;
 	justify-content: center;
@@ -363,29 +594,310 @@ html body{
 
 .contfour .partfour .socialMedia .facebook, .twitter, .github{
 	width: 20%;
-	height: 100%;
+	height: 50%;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: all 0.5s ease;
+
 }
 
 .contfour .partfour .socialMedia .facebook .fa-facebook, .twitter .fa-twitter, .github .fa-github{
 	color: #42dc94;
+	cursor: pointer;
+	outline: none;
 }
 
 .contfour .partfour .socialMedia .facebook .fa-facebook:hover{
-	color: #2a180a;
-	transition: all 0.5s ease;
+	color: white;	
 }
 
 .contfour .partfour .socialMedia .twitter .fa-twitter:hover{
-	color: #2a180a;
-	transition: all 0.5s ease;
+	color: white;
 }
 
 .contfour .partfour .socialMedia .github .fa-github:hover{
-	color: #2a180a;
-	transition: all 0.5s ease;
+	color: white;
 }
+
+/**------------------------------------------Media Query Starts------------------------------------------------**/
+
+/**---------------------------------------------partone starts-------------------------------------------------**/
+
+
+@media screen and (max-width: 480px){
+	html, body{
+		width: 480px;
+		margin: 0;
+		padding: 0;
+	}
+
+
+	.container .partone .navigation .topsection .leftsection{
+		padding-left: 30px;
+		font-size: 0.9em;
+
+	}
+
+	.container .partone .navigation .topsection .rightsection{
+		
+		padding-top: 30px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-left: 40px;
+
+	}
+
+	.container .partone .navigation .topsection .rightsection .menu{
+		display: none;
+	}	
+
+	a{
+		text-decoration: none;
+		color: white;
+	}
+
+	ul{
+		padding: none;
+		list-style-type: none;
+		font-family: Gotham Rounded, "sans-serif";
+		font-size: 0.7em;
+	}
+
+	.listmobile{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.listmobile .listmobilecontainer{
+		width: 20px;
+		height: 15px;
+		display: flex;
+		justify-content:space-around;
+		align-items: center;
+		flex-direction: column;
+		padding: 5px;
+		position: fixed;
+		transition: all 0.5s ease;
+	}
+
+	.listmobile .listmobilecontainer .bar1, .bar2, .bar3{
+		width: 20px;
+		height: 2px;
+		background-color: white;
+		border-radius: 5px;
+		transition: all 0.5s ease;
+	}
+
+	.listmobile .listmobilecontainer:hover{
+		cursor: pointer;
+
+	}
+
+	.listmobile .listmobilecontainer:hover .bar1{
+		background-color: #42dc94;
+	}
+
+	.listmobile .listmobilecontainer:hover .bar2{
+		background-color: #42dc94;
+	}
+
+	.listmobile .listmobilecontainer:hover .bar3{
+		background-color: #42dc94;
+	}
+
+	.cross .bar1{
+		transform: rotate(-45deg) translate(-3px, 5px);
+	}
+
+	.cross .bar2{
+		opacity: 0;
+	}
+
+	.cross .bar3{
+		transform: rotate(45deg) translate(-2px, -4px);
+	}
+
+	.menuContent{
+		position: relative;
+		display: flex;
+		width: 100%;
+		height: 100%;
+	}
+
+	 #mobileMenu{
+		display: none;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+	}
+
+	 #mobileMenu li a:hover{
+	 	color: #42dc94;
+	}
+
+	.container .partone .navigation .topsection .rightsection .listmobile, .menuContent{
+		display: flex;
+	}
+
+	.herocontent .herotext h1 {
+		font-size: 0.5em;
+	}
+
+
+
+
+	/**---------------------------------------------parttwo starts-------------------------------------------------**/
+
+	
+	.conttwo .parttwo .work .firstslide .workText{
+		font-size: 0.7em;
+	}
+
+	.conttwo .parttwo .work .firstslide .firstslidebottomSec{
+		justify-content: center; 
+		flex-direction: column;
+	}
+
+	.conttwo .parttwo .work .firstslide .firstslidebottomSec .workContent{
+		width: 100%;
+		padding-left: 0;
+		justify-content: center;
+	}
+
+	.conttwo .parttwo .work .firstslide .firstslidebottomSec .workContentText{
+		width: 80%;
+		padding-right: 0;
+		font-size: 0.7em;
+	}
+
+	.conttwo .parttwo .work .firstslide .firstslidebottomSec .workContentText .text{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	.conttwo .parttwo .work .firstslide .moreProject{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding-right: 20px;
+	}
+
+	.conttwo .parttwo .work .firstslide .moreProject button{
+
+		background-color: transparent;
+	    border: none;
+	    color: #64FFDA;;
+	    padding: 10px 10px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-family: Roboto;
+	    font-size: 0.8em;
+		cursor: pointer;
+		border-radius: 5%;
+		outline: none;
+
+		transition: 0.5s all ease;
+	}
+	
+	/**-------------------------------Part 3----------------------------------**/	
+
+	.contthree .partthird .timeline .timelinehead{
+		font-size: 0.9em;
+	}
+
+
+	.contthree .partthird .timeline .timeLinetrack{
+		font-size: 0.6em;
+	}
+
+	.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn1:hover .btn1text{
+		width: 100px;
+		align-items: flex-end;
+		left: -45px;
+	}
+
+	.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn2:hover .btn2text{
+		width: 150px;
+		align-items: flex-end;
+		left: -65px;
+	}
+
+	.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn3:hover .btn3text{
+		width: 250px;
+		align-items: flex-end;
+		left: -115px;
+	}
+
+	.contthree .partthird .timeline .timeLinetrack .timeLineContent .btn4:hover .btn4text{
+		width: 200px;
+		align-items: flex-end;
+		left: -115px;
+	}
+
 }
+
+/**---------------------------------------------------Media query for 768px-----------------------------------------**/
+
+@media screen and (max-width: 768px){
+	html, body{
+		width: 768px;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	.container .partone .navigation .topsection .leftsection{
+		padding-left: 30px;
+		font-size: 1.2em;
+	}
+
+	.container .partone .navigation .topsection .rightsection{
+		font-size: 0.6em;
+		padding-left:0;
+	}
+
+	.container .partone .navigation .topsection .rightsection .menu{
+		padding-right: 0;
+	}
+
+		.herocontent .herotext h1 {
+		font-size: 0.8em;
+	}
+
+
+	/**------------------------------------Part2-------------------**/
+
+	.conttwo .parttwo .work .firstslide .firstslidebottomSec .workContentText{
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-right: 0;
+		font-size: 0.9em;
+	}
+
+	.conttwo .parttwo .work .firstslide .moreProject{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding-right: 10px;
+	}
+
+	.conttwo .parttwo .work .firstslide .moreProject button{
+		font-size: 0.9em;
+	}
+
+}
+
+
+
